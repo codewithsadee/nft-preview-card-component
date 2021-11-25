@@ -36,16 +36,14 @@
 
 html {
   font-family: "Outfit", sans-serif;
-  overflow-y: scroll;
 }
 
 a { text-decoration: none; }
 
 
-.container {
+body {
   background: var(--oxford-blue);
   min-height: 100vh;
-  max-width:  1440px;
   margin:  auto;
   padding: 25px;
   display:         flex;
