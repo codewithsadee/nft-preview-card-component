@@ -23,7 +23,6 @@
 
 
 
-
 /*-----------------------------------*\ 
   #RESET
 \*-----------------------------------*/
@@ -34,17 +33,13 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Outfit", sans-serif;
-}
+html { font-family: "Outfit", sans-serif; }
 
 a { text-decoration: none; }
-
 
 body {
   background: var(--oxford-blue);
   min-height: 100vh;
-  margin:  auto;
   padding: 25px;
   display:         flex;
   justify-content: center;
@@ -146,14 +141,14 @@ body {
   }
 
     .card__author-img {
-      width: 34px;
+      width:  34px;
       height: 34px;
       border: 2px solid var(--white);
       border-radius: 50px;
       margin-right: 15px;
     }
 
-    .card__author-name { 
+    .card__author-name {
       color: var(--blue-yonder);
       font-weight: 500;
     }
